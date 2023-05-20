@@ -1,13 +1,13 @@
-import random
+from random import choice # da boblioteca de random import apenas o choice
 cores = ['vermelho' ,'azul','verde','amarelo']
 verde = ['folha','grama','lagarta','gafanhoto']
 vermelho = ['morango','tomate','cereja','flor']
 amarelo = ['girassol','sol','banana','mel']
 azul = ['mirtilo','oceano','borboleta','flor']
-verde = random.choice(verde)
-vermelho = random.choice(vermelho)
-amarelo = random.choice(amarelo)
-azul = random.choice(azul)
+verde = choice(verde)#não precisa do random pq já especificamos que dessa biblioteca só vamos usar o choice
+vermelho = choice(vermelho)
+amarelo = choice(amarelo)
+azul = choice(azul)
 print (azul)
 print(amarelo)
 print(vermelho)
