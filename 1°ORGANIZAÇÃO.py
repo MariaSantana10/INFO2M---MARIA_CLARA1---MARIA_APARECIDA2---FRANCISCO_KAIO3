@@ -1,3 +1,13 @@
+def dec():
+  print()
+  print('--'*27)
+  print()
+dec()
+print('=='*10,'\033[0;30;41mJOGO DA FORCA\033[m','=='*10)
+dec()
+user=str(input('Bem-vindo(a)!\n \nAntes de iniarmos me diga o seu nome: '))
+print('Olá,{}{}{}!\nEu vou ser o seu guia de jogo!'.format('\033[4;34m',user.capitalize(),'\033[m'))
+'''
 from random import choice # da boblioteca de random import apenas o choice
 cores = ['vermelho' ,'azul','verde','amarelo']
 verde = ['folha','grama','lagarta','gafanhoto']
@@ -8,14 +18,4 @@ verde = choice(verde)#não precisa do random pq já especificamos que dessa bibl
 vermelho = choice(vermelho)
 amarelo = choice(amarelo)
 azul = choice(azul)
-print (azul)
-print(amarelo)
-print(vermelho)
-print(verde)
-
-#ainda vou organizar o resto
-#num = int(input('escreva um ou zero  '))
-#if num == 0:
- # print(vermelho)
-#if num == 1 :
- # print(azul)
+'''
