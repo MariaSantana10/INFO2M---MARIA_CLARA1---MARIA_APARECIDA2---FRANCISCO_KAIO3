@@ -1,5 +1,7 @@
-def dec():
+def dec(txt):
   print()
+  print('--'*27)
+  print('=='*10,txt,'=='*10)
   print('--'*27)
   print()
 dec()
